@@ -1,0 +1,57 @@
+.ItemContainer {
+  border: 1px solid #ddccf6;
+  max-width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 1s ease-in;
+  /* margin-bottom: 50px; */
+}
+
+@media (min-width: 992px) {
+  .ItemContainer {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ItemContainer {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+.ItemContent {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.ItemStarContainer {
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.StarOutlineIcon {
+  /* color: #ddccf6; */
+  fill: #5300d4;
+}
+
+.ItemPrice {
+  font-weight: bold;
+  font-size: calc(1.3rem + 0.6vw);
+  line-height: 1.2;
+}
+
+.Review {
+  font-size: 1rem;
+}

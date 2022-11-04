@@ -4,7 +4,7 @@ import Items from '../component/Items/Items';
 import Navbar from '../component/navbar/Navbar';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,23 +12,13 @@ export default function Home() {
         <meta name="description" content="Online Shopping " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <>
+
+      <nav>
         <Navbar />
-      </>
+      </nav>
 
       <main className={styles.main}>
-        <section className={styles.section}>
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
-          <Items />
+        <section>
           <Items />
         </section>
       </main>
