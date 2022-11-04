@@ -7,10 +7,10 @@ const Pcsidebar = () => {
         <li>Fashion</li>
         <li>Foods</li>
         <li>Gaming</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Home & Office</li>
+        <li>Kiddis</li>
+        <li>Automobiles</li>
+        <li>Others</li>
       </ul>
     </div>
   );
